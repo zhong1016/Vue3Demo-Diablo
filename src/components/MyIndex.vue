@@ -22,7 +22,8 @@
                 </h4>
             </div>
             <div style="color:rgb(180,180,180);height: 70%;" class="col-12 col-lg-8" v-if="updateif">
-                <h2>2021.09.20&emsp;|&emsp;新增符文介紹、符文組</h2>
+                <h2>2021.09.22&emsp;|&emsp;<span style="height: 0" class="d-flex d-lg-none"><br /></span>新增角色養成、文章&影片攻略</h2>
+                <h2>2021.09.20&emsp;|&emsp;<span style="height: 0" class="d-flex d-lg-none"><br /></span>新增符文介紹、符文組</h2>
             </div>
         </div>
     </section>

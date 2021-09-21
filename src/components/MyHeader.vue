@@ -11,10 +11,10 @@
           <router-link to="/Vue3Demo-Diablo/ruen">
             <li>符文專區</li>
           </router-link>
-          <!-- <router-link to="/Vue3Demo-Diablo/role">
+          <router-link to="/Vue3Demo-Diablo/role">
             <li>角色養成</li>  
-          </router-link> -->
-          <a href="javascript:void(0)"><li>未來新增</li></a>
+          </router-link>
+          <!-- <a href="javascript:void(0)"><li>未來新增</li></a> -->
           <a href="javascript:void(0)"><li>未來新增</li></a>
           <a href="javascript:void(0)"><li>未來新增</li></a>
           <!-- <router-link ><li>符文列表</li></router-link> -->
@@ -27,11 +27,8 @@
           <a href="/Vue3Demo-Diablo/ruen">
             <li>符文專區</li>
           </a>
-          <!-- <router-link to="/Vue3Demo-Diablo/role">
-            <li>角色養成</li>  
-          </router-link> -->
-          <a href="javascript:void(0)">
-            <li>未來新增</li>
+          <a href="/Vue3Demo-Diablo/role">
+            <li>角色養成</li>
           </a>
           <a href="javascript:void(0)">
             <li>未來新增</li>

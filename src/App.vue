@@ -6,7 +6,6 @@
 <script setup>
 import MyHeader from "./components/MyHeader.vue";
 import MyFooter from "./components/MyFooter.vue";
-
 </script>
 <style>
 * {
@@ -53,11 +52,26 @@ ul {
   .armor-td {
     font-size: 1rem !important;
   }
-  .helmet-span{
+  .helmet-span {
     font-size: 1.2rem !important;
   }
-  .Enlight-span{
+  .Enlight-span {
     font-size: 14px !important;
+  }
+  .roleul li {
+    margin-top: 3% !important;
+  }
+  .roleul {
+    border-bottom: 2px gray solid;
+  }
+  .linkh1 {
+    margin-top: 20% !important;
+  }
+  .role {
+    border-right: none !important;
+  }
+  .link {
+    height: 600px !important;
   }
 }
 </style>

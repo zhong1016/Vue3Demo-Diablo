@@ -34,10 +34,10 @@ const router = createRouter({
       path: "/Vue3Demo-Diablo/weapon",
       component: MyWeapon,
     },
-    // {
-    //   path: "/Vue3Demo-Diablo/role",
-    //   component: MyRole,
-    // },
+    {
+      path: "/Vue3Demo-Diablo/role",
+      component: MyRole,
+    },
   ],
 });
 // 導航守衛、路由守衛、路由攔截

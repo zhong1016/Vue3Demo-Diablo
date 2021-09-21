@@ -48,8 +48,6 @@
 <script setup>
   import { ref, reactive } from "vue";
   import armorjs from "../utils/armor.js";
-
-
   import helmetjs from "../utils/helmet.js";
 
   const helmet = reactive(helmetjs());

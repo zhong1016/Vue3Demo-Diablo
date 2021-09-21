@@ -25,7 +25,7 @@
 }
 footer {
   color: rgba(0, 255, 255, 0.5);
-  margin-top: 2%;
+  margin-top: 1%;
   border-top: 1px gray solid;
 }
 a{
