@@ -367,4 +367,19 @@ function ruen() {
   return ruen;
 }
 
+function find_ruen(id) {
+  return ruen().find((el) => el.id === id);
+}
+
+function ruenmixen_to_ruens(ruenmixen) {
+  return ruenmixen
+    .join(' ')
+    .match(/\d+/g)
+    .map((num) => find_ruen(Number(num)));
+}
+
 export default ruen;
+export {
+  find_ruen,
+  ruenmixen_to_ruens,
+};

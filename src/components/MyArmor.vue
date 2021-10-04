@@ -32,7 +32,10 @@
             {{item.ladder}} </span><br />
           <span style="color: #d49e43">
             {{ item.socket }} <br />
-            {{ item.ruenmix }}
+            {{ item.ruenmix }} <br />
+            <span v-for="ruen in ruenmixen_to_ruens(item.ruenmixen)" :key="'ruen-'+ruen.id">
+              <img :src="ruen.img">
+            </span>
           </span>
           <br /><br />
           {{ item.ruenmixen[0] }}<span class="d-none d-lg-inline-flex"></span><span style="height: 0"
@@ -50,6 +53,7 @@
 </template>
 <script setup>
   import { ref, reactive } from "vue";
+  import { ruenmixen_to_ruens } from "../utils/ruen.js";
   import armorjs from "../utils/armor.js";
 
   const armor = reactive(armorjs());
