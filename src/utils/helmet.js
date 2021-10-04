@@ -1,10 +1,10 @@
 const helmet = () => {
     const helmet = [
         {
-            name: "天底<br/>Nadir",
-            socket:'需要 2 凹槽',
-            ruenmix: "那夫 • 特爾",
-            ruenmixen:['Nef (4) + ','Tir (3)'],
+            name: '天底<br/>Nadir',
+            socket: '需要 2 凹槽',
+            ruenmix: '那夫 • 特爾',
+            ruenmixen: ['Nef (4) + ', 'Tir (3)'],
             level: 13,
             effect: `
             +50% 防禦強化<br/>
@@ -18,10 +18,10 @@ const helmet = () => {
             `,
         },
         {
-            name: "知識 <br/>Lore",
-            socket:'需要 2 凹槽',
-            ruenmix: "歐特 • 索爾 ",
-            ruenmixen:['Ort (9) + ','Sol (12)'],
+            name: '知識 <br/>Lore',
+            socket: '需要 2 凹槽',
+            ruenmix: '歐特 • 索爾 ',
+            ruenmixen: ['Ort (9) + ', 'Sol (12)'],
             level: 27,
             effect: `
             +50% 防禦強化<br/>
@@ -35,10 +35,10 @@ const helmet = () => {
             `,
         },
         {
-            name: "光輝 <br/>Radiance",
-            socket:'需要 3 凹槽',
-            ruenmix: "那夫 • 索爾 • 伊司",
-            ruenmixen:['Nef (4) + ','Sol (12) + ','Ith (6)'],
+            name: '光輝 <br/>Radiance',
+            socket: '需要 3 凹槽',
+            ruenmix: '那夫 • 索爾 • 伊司',
+            ruenmixen: ['Nef (4) + ', 'Sol (12) + ', 'Ith (6)'],
             level: 27,
             effect: `
             +75% 防禦強化<br />
@@ -53,10 +53,10 @@ const helmet = () => {
             `,
         },
         {
-            name: "迪勒瑞姆 <br/>Delirium",
-            socket:'需要 3 凹槽',
-            ruenmix: "藍姆 • 伊司特 • 破",
-            ruenmixen:['Lem (20) + ','Ist (24) + ','Io (16)'],
+            name: '迪勒瑞姆 <br/>Delirium',
+            socket: '需要 3 凹槽',
+            ruenmix: '藍姆 • 伊司特 • 破',
+            ruenmixen: ['Lem (20) + ', 'Ist (24) + ', 'Io (16)'],
             level: 59,
             effect: `
             被擊中時有 1% 機會施展等級 50 迪勒瑞姆<br />
@@ -72,11 +72,11 @@ const helmet = () => {
             `,
         },
         {
-            ladder:"( 天梯專用 )",
-            name: "夢境 <br/>Dream",
-            socket:'需要 3 凹槽',
-            ruenmix: "破 • 喬 • 普爾",
-            ruenmixen:['Io (16) + ','Jah (31) + ','Pul (21)'],
+            ladder: '( 天梯專用 )',
+            name: '夢境 <br/>Dream',
+            socket: '需要 3 凹槽',
+            ruenmix: '破 • 喬 • 普爾',
+            ruenmixen: ['Io (16) + ', 'Jah (31) + ', 'Pul (21)'],
             level: 61,
             effect: `
             被打 10% 機率產生 15 等的迷亂<br />

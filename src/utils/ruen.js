@@ -39,7 +39,7 @@ function ruen() {
       img: 'https://wiki.d.163.com/images/b/bc/RuneNef.gif',
       level: 13,
       arms: '擊退',
-      equipment:'+30 對飛射性武器防禦',
+      equipment: '+30 對飛射性武器防禦',
       drop: "17.32%",
       boss: "女伯爵",
       checkpoint: "普通",

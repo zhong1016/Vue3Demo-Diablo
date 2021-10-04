@@ -2,9 +2,9 @@ const armor = () => {
     const armor = [
         {
             name: '隱蔽<br/>Stealth',
-            socket:'需要 2 凹槽',
-            ruenmix: "塔爾 • 愛斯",
-            ruenmixen:['Tal (7) + ','Eth (5)'],
+            socket: '需要 2 凹槽',
+            ruenmix: '塔爾 • 愛斯',
+            ruenmixen: ['Tal (7) + ', 'Eth (5)'],
             level: 17,
             effect: `
             法術傷害減少 3<br/>
@@ -17,10 +17,10 @@ const armor = () => {
             `,
         },
         {
-            name: "神話<br/>Myth",
-            socket:'需要 3 凹槽',
-            ruenmix: "海爾 • 安姆 • 那夫",
-            ruenmixen:['Hel (15) + ','Amn (11) + ','Nef (4)'],
+            name: '神話<br/>Myth',
+            socket: '需要 3 凹槽',
+            ruenmix: '海爾 • 安姆 • 那夫',
+            ruenmixen: ['Hel (15) + ', 'Amn (11) + ', 'Nef (4)'],
             level: 25,
             effect: `
             被擊中時 3% 機會施展等級 1 狂嗥<br/>
@@ -33,10 +33,10 @@ const armor = () => {
             `,
         },
         {
-            name: "和平 <br/>Peace",
-            socket:'需要 3 凹槽',
-            ruenmix: "夏 • 書爾 • 安姆",
-            ruenmixen:['Shael (13) + ','Thul (10) + ','Amn (11)'],
+            name: '和平 <br/>Peace',
+            socket: '需要 3 凹槽',
+            ruenmix: '夏 • 書爾 • 安姆',
+            ruenmixen: ['Shael (13) + ', 'Thul (10) + ', 'Amn (11)'],
             level: 29,
             effect: `
             被擊中時 4% 機會施展等級 5 慢速箭<br/>
@@ -49,10 +49,10 @@ const armor = () => {
             `,
         },
         {
-            name: "煙霧 <br/>Smoke",
-            socket:'需要 2 凹槽',
-            ruenmix: "那夫 • 盧姆",
-            ruenmixen:['Nef (4) + ','lum (17)'],
+            name: '煙霧 <br/>Smoke',
+            socket: '需要 2 凹槽',
+            ruenmix: '那夫 • 盧姆',
+            ruenmixen: ['Nef (4) + ', 'lum (17)'],
             level: 37,
             effect: `
             +75% 增加防禦<br/>
@@ -65,10 +65,10 @@ const armor = () => {
             `,
         },
         {
-            name: "獅子心 <br/>Lionheart",
-            socket:'需要 3 凹槽',
-            ruenmix: "海爾 • 盧姆 • 法爾",
-            ruenmixen:['Hel (15) + ','Lum (17) + ','Fal (19)'],
+            name: '獅子心 <br/>Lionheart',
+            socket: '需要 3 凹槽',
+            ruenmix: '海爾 • 盧姆 • 法爾',
+            ruenmixen: ['Hel (15) + ', 'Lum (17) + ', 'Fal (19)'],
             level: 41,
             effect: `
             +20% 增強傷害<br/>
@@ -82,10 +82,10 @@ const armor = () => {
             `,
         },
         {
-            name: "財富 <br/>Wealth",
-            socket:'需要 3 凹槽',
-            ruenmix: "藍姆 • 科 • 特爾",
-            ruenmixen:['Lem (20) + ','Ko (18) + ','Tir (3)'],
+            name: '財富 <br/>Wealth',
+            socket: '需要 3 凹槽',
+            ruenmix: '藍姆 • 科 • 特爾',
+            ruenmixen: ['Lem (20) + ', 'Ko (18) + ', 'Tir (3)'],
             level: 43,
             effect: `
             300% 額外金錢從敵人身上取得<br/>
@@ -95,10 +95,10 @@ const armor = () => {
             `,
         },
         {
-            name: "背信 <br/>Treachery",
-            socket:'需要 3 凹槽',
-            ruenmix: "夏 • 書爾 • 藍姆",
-            ruenmixen:['Shael (13) + ','Thul (10) + ','Lem (20)'],
+            name: '背信 <br/>Treachery',
+            socket: '需要 3 凹槽',
+            ruenmix: '夏 • 書爾 • 藍姆',
+            ruenmixen: ['Shael (13) + ', 'Thul (10) + ', 'Lem (20)'],
             level: 43,
             effect: `
             被擊中時 5% 機會施展等級 15 能量消解<br/>
@@ -112,9 +112,9 @@ const armor = () => {
         },
         {
             name: '教化 <br/> <span class="Enlight-span">Enlightenment</span>',
-            socket:'需要 3 凹槽',
-            ruenmix: "普爾 • 拉爾 • 索爾",
-            ruenmixen:['Pul (21) + ','Ral (8) + ','Sol (12)'],
+            socket: '需要 3 凹槽',
+            ruenmix: '普爾 • 拉爾 • 索爾',
+            ruenmixen: ['Pul (21) + ', 'Ral (8) + ', 'Sol (12)'],
             level: 45,
             effect: `
             被擊中時有 5% 機會施展等級 15 炙烈之徑<br/>
@@ -127,10 +127,10 @@ const armor = () => {
             `,
         },
         {
-            name: "強制 <br/>Durees",
-            socket:'需要 3 凹槽',
-            ruenmix: "夏 • 烏姆 • 書爾",
-            ruenmixen:['Shael (13) + ','Um (22) + ','Thul (10)'],
+            name: '強制 <br/>Durees',
+            socket: '需要 3 凹槽',
+            ruenmix: '夏 • 烏姆 • 書爾',
+            ruenmixen: ['Shael (13) + ', 'Um (22) + ', 'Thul (10)'],
             level: 47,
             effect: `
             40% 快速打擊恢復<br/>
@@ -147,10 +147,10 @@ const armor = () => {
             `,
         },
         {
-            name: "幽暗 <br/>Gloom",
-            socket:'需要 3 凹槽',
-            ruenmix: "法爾 • 烏姆 • 普爾",
-            ruenmixen:['Fal (19) + ','Um (22) + ','Pul (21)'],
+            name: '幽暗 <br/>Gloom',
+            socket: '需要 3 凹槽',
+            ruenmix: '法爾 • 烏姆 • 普爾',
+            ruenmixen: ['Fal (19) + ', 'Um (22) + ', 'Pul (21)'],
             level: 47,
             effect: `
             被擊中時有15% 機會施展等級 3 微暗靈視<br/>
@@ -164,10 +164,10 @@ const armor = () => {
             `,
         },
         {
-            name: "石塊 <br/>Stone",
-            socket:'需要 4 凹槽',
-            ruenmix: "夏 • 烏姆 • 普爾 • 盧姆",
-            ruenmixen:['Shael (13) + ','Um (22) + ','Pul (21) + ','Lum (17)'],
+            name: '石塊 <br/>Stone',
+            socket: '需要 4 凹槽',
+            ruenmix: '夏 • 烏姆 • 普爾 • 盧姆',
+            ruenmixen: ['Shael (13) + ', 'Um (22) + ', 'Pul (21) + ', 'Lum (17)'],
             level: 47,
             effect: `
             +2 到所有技能<br/>
@@ -183,10 +183,10 @@ const armor = () => {
             `,
         },
         {
-            name: "白骨 <br/>Bone",
-            socket:'需要 3 凹槽',
-            ruenmix: "索爾 • 烏姆 • 烏姆",
-            ruenmixen:['Sol (12) + ','Um (22) + ','Um (22)'],
+            name: '白骨 <br/>Bone',
+            socket: '需要 3 凹槽',
+            ruenmix: '索爾 • 烏姆 • 烏姆',
+            ruenmixen: ['Sol (12) + ', 'Um (22) + ', 'Um (22)'],
             level: 47,
             effect: `
             被擊中時有 15% 機會施展等級 15 白骨裝甲<br/>
@@ -198,10 +198,10 @@ const armor = () => {
             `,
         },
         {
-            name: "慎重 <br/>Prudence",
-            socket:'需要 2 凹槽',
-            ruenmix: "馬爾 • 特爾",
-            ruenmixen:['Mal (23) + ','Tir (3)'],
+            name: '慎重 <br/>Prudence',
+            socket: '需要 2 凹槽',
+            ruenmix: '馬爾 • 特爾',
+            ruenmixen: ['Mal (23) + ', 'Tir (3)'],
             level: 49,
             effect: `
             25% 快速再度攻擊<br/>
@@ -215,10 +215,10 @@ const armor = () => {
             `,
         },
         {
-            name: "降雨 <br/>Rain",
-            socket:'需要 3 凹槽',
-            ruenmix: "歐特 • 馬爾 • 伊司",
-            ruenmixen:['Ort (9) + ','Mal (23) + ','Ith (6)'],
+            name: '降雨 <br/>Rain',
+            socket: '需要 3 凹槽',
+            ruenmix: '歐特 • 馬爾 • 伊司',
+            ruenmixen: ['Ort (9) + ', 'Mal (23) + ', 'Ith (6)'],
             level: 49,
             effect: `
             被擊中時 5% 機會施展等級 15 颶風裝甲<br/>
@@ -231,10 +231,10 @@ const armor = () => {
             `,
         },
         {
-            name: "原理 <br/>Principle",
-            socket:'需要 3 凹槽',
-            ruenmix: "拉爾 • 古爾 • 愛德",
-            ruenmixen:['Ral (8) + ','Gul (25) + ','Eld (2)'],
+            name: '原理 <br/>Principle',
+            socket: '需要 3 凹槽',
+            ruenmix: '拉爾 • 古爾 • 愛德',
+            ruenmixen: ['Ral (8) + ', 'Gul (25) + ', 'Eld (2)'],
             level: 53,
             effect: `
             打擊時有 100% 機會施展等級 5 聖光彈<br/>
@@ -245,10 +245,10 @@ const armor = () => {
             `,
         },
         {
-            name: "野薔薇 <br/>Bramble",
-            socket:'需要 4 凹槽',
-            ruenmix: "拉爾 • 歐姆 • 瑟 • 愛斯",
-            ruenmixen:['Ral (8) + ','Ohm (27) + ','Sur (29) + ','Eth (5)'],
+            name: '野薔薇 <br/>Bramble',
+            socket: '需要 4 凹槽',
+            ruenmix: '拉爾 • 歐姆 • 瑟 • 愛斯',
+            ruenmixen: ['Ral (8) + ', 'Ohm (27) + ', 'Sur (29) + ', 'Eth (5)'],
             level: 61,
             effect: `
             等級15-21刺針靈氣賦予 <span style="color:red">(變動)</span><br/>
@@ -265,10 +265,10 @@ const armor = () => {
             `,
         },
         {
-            name: "榮耀之鍊 <br/>Chains of Honor",
-            socket:'需要 4 凹槽',
-            ruenmix: "多爾 • 烏姆 • 貝 • 伊司特",
-            ruenmixen:['Dol (14) + ','Um (22) + ','Ber (30) + ','Ist (24)'],
+            name: '榮耀之鍊 <br/>Chains of Honor',
+            socket: '需要 4 凹槽',
+            ruenmix: '多爾 • 烏姆 • 貝 • 伊司特',
+            ruenmixen: ['Dol (14) + ', 'Um (22) + ', 'Ber (30) + ', 'Ist (24)'],
             level: 63,
             effect: `
             +2 到所有技能<br/>
@@ -284,10 +284,10 @@ const armor = () => {
             `,
         },
         {
-            name: "謎團 <br/>Enigma",
-            socket:'需要 3 凹槽',
-            ruenmix: "喬 • 伊司 • 貝",
-            ruenmixen:['Jah (31) + ','Ith (6) + ','Ber (30)'],
+            name: '謎團 <br/>Enigma',
+            socket: '需要 3 凹槽',
+            ruenmix: '喬 • 伊司 • 貝',
+            ruenmixen: ['Jah (31) + ', 'Ith (6) + ', 'Ber (30)'],
             level: 65,
             effect: `
             +2 到所有技能<br/>
@@ -303,11 +303,11 @@ const armor = () => {
             `,
         },
         {
-            ladder:"( 天梯專用 )",
-            name: "剛毅 <br/>Fortitude ",
-            socket:'需要 3 凹槽',
-            ruenmix: "艾爾 • 索爾 • 多爾 • 羅",
-            ruenmixen:['El (1) + ','Sol (12) + ','Dol (14) +','Lo (28)'],
+            ladder: '( 天梯專用 )',
+            name: '剛毅 <br/>Fortitude ',
+            socket: '需要 3 凹槽',
+            ruenmix: '艾爾 • 索爾 • 多爾 • 羅',
+            ruenmixen: ['El (1) + ', 'Sol (12) + ', 'Dol (14) +', 'Lo (28)'],
             level: 59,
             effect: `
             被擊中時 20% 機率產生 15 級寒冰裝甲<br/>
@@ -325,11 +325,11 @@ const armor = () => {
             `,
         },
         {
-            ladder:"( 天梯專用 )",
-            name: "飛龍 <br/>Dragon ",
-            socket:'需要 3 凹槽',
-            ruenmix: "瑟 • 羅 • 索爾",
-            ruenmixen:['Sur (29) + ','Lo (28) + ','Sol (12)'],
+            ladder: '( 天梯專用 )',
+            name: '飛龍 <br/>Dragon ',
+            socket: '需要 3 凹槽',
+            ruenmix: '瑟 • 羅 • 索爾',
+            ruenmixen: ['Sur (29) + ', 'Lo (28) + ', 'Sol (12)'],
             level: 61,
             effect: `
             被擊中時 20% 機率產生 18 級的毒牙<br/>
